@@ -11,6 +11,7 @@ echo json_encode($json);
 }
 else{
 	$i = 0;
+<<<<<<< HEAD
 
 
 
@@ -18,6 +19,8 @@ else{
 
 
 	
+=======
+>>>>>>> 2136ae5214e87967506b8ec238baab3f59ed8140
 	$json = array("status" => 0, "msg" => "post value not");
 }
 ?>
