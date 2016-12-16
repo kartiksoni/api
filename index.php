@@ -12,6 +12,16 @@ echo json_encode($json);
 else{
 	$i = 0;
 
+
+
+$jsonOutput['meta']['status'] = 'error';
+            $jsonOutput['meta']['code'] = '400';
+            $jsonOutput['meta']['message'] = $errorMsg;
+            $jsonOutput['data'] = '';
+
+
+
+
 	$json = array("status" => 0, "msg" => "post value not");
 }
 ?>
