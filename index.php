@@ -11,6 +11,13 @@ echo json_encode($json);
 }
 else{
 	$i = 0;
+
+
+
+
+
+
+	
 	$json = array("status" => 0, "msg" => "post value not");
 }
 ?>
