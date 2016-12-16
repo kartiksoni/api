@@ -10,6 +10,7 @@ $json = array("status" => 1, "msg" => $_POST['name']);
 echo json_encode($json);
 }
 else{
+	
 	$json = array("status" => 0, "msg" => "post value not");
 }
 ?>
